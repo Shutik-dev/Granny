@@ -9,5 +9,5 @@ class Recipe(
     val tools_am: Int,
     val likes: Int,
     val tod: String,
-    val desc: String
+    val descr: String
 )
