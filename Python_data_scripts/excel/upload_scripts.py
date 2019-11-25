@@ -29,7 +29,7 @@ descr TEXT);"""
 create_points_query = """CREATE TABLE IF NOT EXISTS points(
 _id INT PRIMARY KEY AUTO_INCREMENT,
 rec_id INT,
-num VARCHAR(300),
+num INT,
 text TEXT,
 timer INT);"""
 create_ings_query = """CREATE TABLE IF NOT EXISTS ings(
