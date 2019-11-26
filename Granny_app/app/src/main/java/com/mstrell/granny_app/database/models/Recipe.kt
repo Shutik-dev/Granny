@@ -10,4 +10,8 @@ class Recipe(
     val likes: Int,
     val tod: String,
     val descr: String
-)
+) {
+    val points: ArrayList<Point> = ArrayList<Point>()
+    val ings: ArrayList<Ingredient> = ArrayList<Ingredient>()
+    val tools: ArrayList<Tool> = ArrayList<Tool>()
+}
